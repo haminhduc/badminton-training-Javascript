@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: greenyellow;
+}
+p {
+  margin: auto;
+  font-size: 60px;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.control {
+  position: absolute;
+}
+.corner {
+  background-color: rgb(192, 71, 134);
+  width: 50%;
+  height: 150px;
+}
